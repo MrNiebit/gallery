@@ -26,10 +26,10 @@ jobs:
       - uses: actions/checkout@main
 
       # Runs a single command using the runners shell
-      - name: npm install && npm build
+      - name: npm install && npm run build
         run: |
           npm install
-          npm build
+          npm run build
 
       # Runs a set of commands using the runners shell
       - name: james
