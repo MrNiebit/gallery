@@ -34,8 +34,7 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: james
         uses: JamesIves/github-pages-deploy-action@master
-        env: 
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-	  # 生成文件 存放分支，会自动生成
-          BRANCH: gh-pages
-          FOLDER: public
+	env:
+	  ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+	  BRANCH: gh-pages
+	  FOLDER: public
