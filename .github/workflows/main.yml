@@ -36,6 +36,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@master
         env: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-	      # 生成文件 存放分支，会自动生成
+	  # 生成文件 存放分支，会自动生成
           BRANCH: gh-pages
           FOLDER: public
