@@ -1,4 +1,4 @@
-export default [
+const photos = [
     {
         "src":"https://cdn.jsdelivr.net/gh/MrNiebit/life@main/past/8.jpg",
         "title":"夜晚",
@@ -132,3 +132,5 @@ export default [
         }
     }
 ]
+
+export default photos
