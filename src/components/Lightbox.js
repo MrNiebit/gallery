@@ -3,14 +3,16 @@ import PropTypes from 'prop-types'
 
 import Carousel, { Modal, ModalGateway } from 'react-images'
 
+
 function Lightbox({ viewerIsOpen, photos, currentPhoto, closeLightbox }) {
   return (
     <ModalGateway>
       {viewerIsOpen ? (
         <Modal onClose={closeLightbox}>
           <Carousel
-            currentIndex={currentPhoto} showNavigationOnTouchDevice
-            views={photos.map(({ src, title, size: { height, width } }) => ({ src, caption: title, width, height }))} />
+            currentIndex={currentPhoto}
+            views={photos.map(({ src, title, size: { height, width } }) => ({ src, caption: title, width, height }))} 
+            />
         </Modal>
       ) : null}
     </ModalGateway>
