@@ -2,7 +2,7 @@
   "name": "react-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mrniebit.github.io/gallery/",
+  "homepage": "http://gallery.lacknb.cn",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
