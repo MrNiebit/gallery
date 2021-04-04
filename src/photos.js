@@ -1,4 +1,71 @@
 const photos = [
+    
+        {
+            "src":"https://cdn.jsdelivr.net/gh/MrNiebit/life@main/past/14.jpg",
+            "title":"腾讯大厦",
+            "alt":"腾讯大厦。。。",
+            "width":3840,
+            "height":5120,
+            "size":{
+                "height":5120,
+                "width":3840
+            }
+        },
+        {
+            "src":"https://cdn.jsdelivr.net/gh/MrNiebit/life@main/past/15.jpg",
+            "title":"百度",
+            "alt":"百度",
+            "width":3840,
+            "height":5120,
+            "size":{
+                "height":5120,
+                "width":3840
+            }
+        },
+        {
+            "src":"https://cdn.jsdelivr.net/gh/MrNiebit/life@main/past/16.jpg",
+            "title":"城南旧事",
+            "alt":"网上抄写的城南旧事",
+            "width":3840,
+            "height":5120,
+            "size":{
+                "height":5120,
+                "width":3840
+            }
+        },
+        {
+            "src":"https://cdn.jsdelivr.net/gh/MrNiebit/life@main/past/17.jpg",
+            "title":"数码宝贝电影、没想到数码宝贝使用Pyhton写的",
+            "alt":"😂，用Python写的数码兽",
+            "width":5120,
+            "height":3840,
+            "size":{
+                "height":3840,
+                "width":5120
+            }
+        },
+        {
+            "src":"https://cdn.jsdelivr.net/gh/MrNiebit/life@main/past/18.jpg",
+            "title":"第一本mac",
+            "alt":"目前m1芯片还是有很多兼容问题的。",
+            "width":3840,
+            "height":5120,
+            "size":{
+                "height":5120,
+                "width":3840
+            }
+        },
+        {
+            "src":"https://cdn.jsdelivr.net/gh/MrNiebit/life@main/past/19.jpg",
+            "title":"网易",
+            "alt":"网易",
+            "width":3840,
+            "height":5120,
+            "size":{
+                "height":5120,
+                "width":3840
+            }
+        },
     {
         "src":"https://cdn.jsdelivr.net/gh/MrNiebit/life@main/past/8.jpg",
         "title":"夜晚",
