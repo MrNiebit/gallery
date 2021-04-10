@@ -1,1 +1,1 @@
-const photos = [{"height":5120,"size":{"height":5120,"width":3840},"src":"https://cdn.jsdelivr.net/gh/MrNiebit/images@master/pic-dir/12.jpg","width":3840}]; export default photos
+const photos = []; export default photos
