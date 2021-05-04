@@ -34,7 +34,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: james
-        uses: JamesIves/github-pages-deploy-action@master
+        uses: JamesIves/github-pages-deploy-action@4.1.1
         env: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
